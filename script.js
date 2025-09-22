@@ -9,4 +9,4 @@ document.getElementById("adoptBtn").addEventListener("click", () => {
   const randomPet = pets[Math.floor(Math.random() * pets.length)];
   alert(`Congrats! You’ve adopted a ${randomPet}! 🎉`);
 });
-// This is just so I can commit changes
+
