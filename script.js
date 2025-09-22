@@ -1,8 +1,9 @@
 // Interactive Pet Buttons
 function petMe(petName) {
-  alert(`You gave ${petName} some love! 🐾 They are so happy!!`);
+  alert(`You gave ${petName} some love! 🐾 They are so happy to be your pet!`);
 }
 
+// This is a comment to practice pushing a change to the code
 // Fun adopt button effect
 document.getElementById("adoptBtn").addEventListener("click", () => {
   const pets = ["puppy 🐶", "kitten 🐱", "hamster 🐹", "parrot 🦜"];
