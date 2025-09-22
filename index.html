@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Paws Petstore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🐾 Happy Paws Petstore 🐾</h1>
+    <nav>
+      <ul>
+        <li><a href="#pets">Pets</a></li>
+        <li><a href="#toys">Toys</a></li>
+        <li><a href="#adopt">Adopt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Pets Section -->
+    <section id="pets" class="section">
+      <h2>Meet Our Pets</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="https://place-puppy.com/200x200" alt="Puppy">
+          <h3>Buddy</h3>
+          <button onclick="petMe('Buddy')">Pet Me!</button>
+        </div>
+        <div class="card">
+          <img src="https://placekitten.com/200/200" alt="Kitten">
+          <h3>Luna</h3>
+          <button onclick="petMe('Luna')">Pet Me!</button>
+        </div>
+        <div class="card">
+          <img src="https://placebear.com/200/200" alt="Hamster">
+          <h3>Nibbles</h3>
+          <button onclick="petMe('Nibbles')">Pet Me!</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Toys Section -->
+    <section id="toys" class="section">
+      <h2>Fun Toys</h2>
+      <ul class="toys-list">
+        <li>🐶 Chewy Bone</li>
+        <li>🐱 Feather Wand</li>
+        <li>🐹 Hamster Wheel</li>
+      </ul>
+    </section>
+
+    <!-- Adopt Section -->
+    <section id="adopt" class="section adopt">
+      <h2>Adopt a Friend</h2>
+      <p>Looking for a new best friend? Click below!</p>
+      <button id="adoptBtn">Adopt Now</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Happy Paws Petstore | Made with ❤️ for pets</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
