@@ -1,6 +1,6 @@
 // Interactive Pet Buttons
 function petMe(petName) {
-  alert(`You gave ${petName} some love! 🐾 They are so happy and they are so happy to see you!!`);
+  alert(`You gave ${petName} some love! 🐾 They are so happy and they are so happy to see you$`);
 }
 
 // This is a comment to practice pushing a change to the code
